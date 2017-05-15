@@ -1,0 +1,38 @@
+{
+    "name": "io.cordova.hellocordova",
+    "version": "1.0.0",
+    "displayName": "HelloCordova",
+    "cordova": {
+        "platforms": [
+            "android",
+            "browser",
+            "ios"
+        ],
+        "plugins": {
+            "cordova-plugin-whitelist": {},
+            "cordova-plugin-websocket": {},
+            "cordova-plugin-device": {},
+            "cordova-custom-config": {},
+            "cordova-plugin-iosrtc": {},
+            "cordova-plugin-background-mode": {},
+            "cordova-plugin-app-event": {},
+            "cordova-plugin-badge": {},
+            "cordova-plugin-file": {}
+        }
+    },
+    "dependencies": {
+        "cordova-android": "~6.2.3",
+        "cordova-browser": "^4.1.0",
+        "cordova-custom-config": "^3.2.0",
+        "cordova-ios": "~4.4.0",
+        "cordova-plugin-app-event": "^1.2.0",
+        "cordova-plugin-background-mode": "^0.7.2",
+        "cordova-plugin-badge": "^0.7.4",
+        "cordova-plugin-compat": "^1.1.0",
+        "cordova-plugin-device": "^1.1.6",
+        "cordova-plugin-file": "^4.3.3",
+        "cordova-plugin-iosrtc": "^4.0.0",
+        "cordova-plugin-websocket": "^0.12.2",
+        "cordova-plugin-whitelist": "1"
+    }
+}
